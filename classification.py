@@ -16,4 +16,4 @@ def classify(image):
         masks = result.masks  # Masks object for segmentation masks outputs
         keypoints = result.keypoints  # Keypoints object for pose outputs
         probs = result.probs  # Probs object for classification outputs
-        result.save(filename='result.jpg')  # save to disk
+        result.save(filename='result.jpg')  # save
